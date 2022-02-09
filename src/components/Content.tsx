@@ -14,7 +14,6 @@ interface ContentProps {
 
 export function Content({ movies, selectedGenre }: ContentProps) {
   // Complete aqui
-
   return (
     <div className="container">
       <header>
