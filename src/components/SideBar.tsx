@@ -14,7 +14,6 @@ interface SideBarProps {
 
 export function SideBar({ genres, selectedGenreId, setSelectedGenreId }: SideBarProps) {
   // Complete aqui
-
   function handleClickButton(id: number) {
     setSelectedGenreId(id);
   }
